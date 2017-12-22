@@ -5,12 +5,28 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "react-router-dom": "^4.2.2",
+    "@vx/axis": "0.0.146",
+    "@vx/curve": "0.0.143",
+    "@vx/glyph": "0.0.143",
+    "@vx/gradient": "0.0.143",
+    "@vx/group": "0.0.143",
+    "@vx/mock-data": "0.0.144",
+    "@vx/scale": "0.0.143",
+    "@vx/shape": "0.0.146",
+    "axios": "^0.16.2",
+    "fluture": "^7.2.2",
+    "prop-types": "^15.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "ramda": "^0.25.0",
+    "ramda-fantasy": "^0.8.0"
   }
 }
